@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>De Apollo - Bar & Podium</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+ 
+    /* Navbar */
+    nav {
+      background-color: rgba(0,0,0,0.85);
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding: 15px 40px;
+      z-index: 1000;
+    }
+    nav .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #df3ee4;
+      text-decoration: none;
+      margin-right: 40px;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1em;
+      transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+      color: #df3ee4;
+    }
+ 
+    /* Header Banner */
+   header {
+      position: relative;
+      background: url('banner.jpg') no-repeat center center;
+      background-size: cover;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 0 20px;
+      margin-top: 70px;
+    }
+    header::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 150px;
+      background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, #111 100%);
+    }
+    header h1 {
+      font-size: 3.5em;
+      margin: 0;
+      text-shadow: 2px 2px 10px #000;
+      position: relative;
+      z-index: 1;
+    }
+    header p {
+      font-size: 1.4em;
+      margin-top: 15px;
+      font-style: italic;
+      color: #f1f1f1;
+      position: relative;
+      z-index: 1;
+    }
+ 
+    /* Content */
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #df3ee4;
+    }
+    section p {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+ 
+    /* Call to Action */
+    .cta-button {
+      display: inline-block;
+      padding: 15px 35px;
+      margin-top: 30px;
+      background-color: #df3ee4;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2em;
+      font-weight: bold;
+      border-radius: 30px;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+    .cta-button:hover {
+      background-color: #972c9b;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <a href="index.html" class="logo">De Apollo</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="overons.html">Over ons</a></li>
+    </ul>
+  </nav>
+ 
+  <!-- Header Banner -->
+  <header>
+    <h1>Welkom bij De Apollo</h1>
+    <p>"Het podium voor beginnende artiesten"</p>
+  </header>
+ 
+  <!-- Content -->
+  <section>
+    <h2>Waarom De Apollo?</h2>
+    <p>
+      Ben jij een beginnende artiest die op zoek is naar een kans om te groeien?  
+      Bij ons krijg je niet alleen een plek om op te treden, maar ook de kans om  
+      ervaring op te doen, je netwerk uit te breiden en je talent te laten zien.
+    </p>
+ 
+    <h3>Wat maakt ons uniek?</h3>
+    <p>
+      Wij helpen artiesten hun eerste stappen te zetten in de muziekwereld door betaalbare optredens,  
+      een enthousiast publiek en een community die elkaar ondersteunt.  
+      Zo bouwen we samen aan jouw toekomst in de muziek.
+    </p>
+ 
+    <a href="overons.html" class="cta-button">Ontdek hoe wij jou helpen!</a>
+
+    <p>
+    <br>
+    <br>
+    	deapolloxx@gmail.com<br>
+     contact: mbrusche27@gmail.com
+    </p>
+
+  </section>
+</body>
+</html>
