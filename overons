@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>De Apollo - Bar & Podium</title>
+<style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+    /* Navbar */
+    nav {
+      background-color: rgba(0,0,0,0.85);
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding: 15px 40px;
+      z-index: 1000;
+    }
+    nav .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #df3ee4;
+      text-decoration: none;
+      margin-right: 40px;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1em;
+      transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+      color: #df3ee4;
+    }
+    /* Header Banner */
+    header {
+      position: relative;
+      background: url('banner.jpg') no-repeat center center;
+      background-size: cover;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 0 20px;
+      margin-top: 70px; /* ruimte voor navbar */
+    }
+    header::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 150px;
+      background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, #111 100%);
+    }
+    header h1 {
+      font-size: 3.5em;
+      margin: 0;
+      text-shadow: 2px 2px 10px #000;
+      position: relative;
+      z-index: 1;
+    }
+    header p {
+      font-size: 1.4em;
+      margin-top: 15px;
+      font-style: italic;
+      color: #f1f1f1;
+      position: relative;
+      z-index: 1;
+    }
+    /* Content */
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #e63946;
+    }
+    section p {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+    /* Call to Action */
+    .cta-button {
+      display: inline-block;
+      padding: 15px 35px;
+      margin-top: 30px;
+      background-color: #e63946;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2em;
+      font-weight: bold;
+      border-radius: 30px;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+    .cta-button:hover {
+      background-color: #d62828;
+      transform: scale(1.05);
+    }
+</style>
+</head>
+<body>
+<!-- Navbar -->
+<nav>
+<a href="overons.html" class="logo">De Apollo</a>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="overons.html">Over ons</a></li>
+</ul>
+</nav>
+<!-- Header Banner -->
+<header>
+<h1>Wie zijn wij?</h1>
+<P> wij zijn een groep leerlingen</p>
+</header>
+<!-- Content -->
+<section>
+<nav>
+<a href="overons.html" class="logo">De Apollo</a>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="overons.html">Over ons</a></li>
+</ul>
+</nav>
+ 
+<!-- Content -->
+<section>
+<h3>Wie zijn wij?</h3>
+<p>
+	Wij zijn De Apollo, een enthousiast groepje tieners dat voor ons profielwerkstuk<br>
+	beginnende muzikanten die geen podium of publiek kunnen vinden, wil helpen.<br>
+	Voor een betaalbare prijs.<br>
+<br>
+	De Apollo is een bar die speciaal is om beginnende muzikanten op weg te helpen.<br>
+	Veel nieuwe artiesten hebben moeite om een podium, publiek of betaalbare speelplekken te vinden.<br>
+	Daarom richten wij ons op het creëren van een plek waar talent ontdekt kan worden.<br>
+<br>
+	Wij combineren een bar met betaalbare podiumruimte,<br>
+	zodat artiesten zonder hoge kosten wel ergens kunnen starten.<br>
+	Voor bezoekers is er live-muziek, in een sfeer waar hapjes en drankjes te halen zijn.<br>
+</p>
+<h4>contact</h4>
+<p>
+	deapolloxx@gmail.com<br>
+	mbrusche27@hotmail.com<br>
+</p>
+</section>
+ 
+</body>
+</html>
